@@ -1,0 +1,7 @@
+// pages/api/index.json
+
+const handler = (req, res) => {
+  res.status(200).json({ message: "Hello from index.json API route!" });
+};
+
+export default handler;
